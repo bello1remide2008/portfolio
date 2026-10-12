@@ -595,7 +595,13 @@ export default function Home() {
         </motion.div>
 
       </section>
-
+ <div className="mt-20 border-t border-zinc-800 pt-8 text-center">
+          <p className="text-sm font-bold text-zinc-500">
+            © {new Date().getFullYear()}{" "}
+            <span className="text-orange-500">IRECODING</span>. Built with
+            passion and code.
+          </p>
+        </div>
     </main>
   );
 }
